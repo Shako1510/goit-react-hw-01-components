@@ -3,7 +3,23 @@ import users from './users.json'
 
 console.log(users)
 
-// export const App = () => {
+export const App = () => {
+  return (
+    <div>
+      <Profile
+        username={users.username}
+        tag={users.tag}
+        location={users.location}
+        avatar={users.avatar}
+        followers={users.stats.followers}
+        views={users.stats.views}
+        likes={users.stats.likes}
+      />
+    </div >
+  );
+};
+
+// export default function App() {
 //   return (
 //     <div>
 //       <Profile
@@ -16,20 +32,6 @@ console.log(users)
 //     </div >
 //   );
 // };
-
-export default function App() {
-  return (
-    <div>
-      <Profile
-        username={users.username}
-        tag={users.tag}
-        location={users.location}
-        avatar={users.avatar}
-        stats={users.stats}
-      />
-    </div >
-  );
-};
 
 // export const App = () => {
 //   return (
