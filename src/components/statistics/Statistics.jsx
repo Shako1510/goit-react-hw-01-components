@@ -1,6 +1,6 @@
 import React from "react"
 import css from './Statistics.css'
-import PropTypes from 'prop-types'
+
 
 export default function Statistics({ label, percentage }) {
     <>
@@ -30,6 +30,6 @@ export default function Statistics({ label, percentage }) {
 
 }
 
-Statistics.PropTypes = {
+// Statistics.PropTypes = {
 
-}
+// }
