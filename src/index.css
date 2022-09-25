@@ -1,4 +1,5 @@
-@import-normalize;
+@import-normalize ;
+
 /* bring in normalize.css styles */
 
 body {
@@ -13,15 +14,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.profile {
-  margin-left: 20px;
-  font-style: normal;
-  font-size: 40px;
-}
-
-.name {
-  font-size: 25px;
-  color: rgb(255, 0, 21);
 }
