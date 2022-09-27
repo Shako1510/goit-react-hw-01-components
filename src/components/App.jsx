@@ -2,6 +2,8 @@ import Profile from './profile/Profile'
 import users from './database/users.json'
 import StatisticsSection from './statisticsSection/StatisticsSection'
 import data from './database/data.json'
+import FriendList from "./friendList/FriendList";
+import friends from "./database/friends.json";
 
 
 export const App = () => {
@@ -19,6 +21,7 @@ export const App = () => {
 
       <StatisticsSection title="Upload stats" stats={data} />
 
+      <FriendList friends={friends} />;
 
     </div >
 

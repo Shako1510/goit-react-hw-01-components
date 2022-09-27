@@ -2,11 +2,11 @@ import PropTypes from 'prop-types';
 import css from './StatisticsSection.module.css'
 
 
-export default function StatisticsSection({ stats }) {
+export default function StatisticsSection({ title, stats }) {
 
     return (
         < section className={css.sections}>
-            <h2 className={css.title}>Upload stats</h2>
+            <h2 className={css.title}>{title}</h2>
             <ul className={css.list}>
                 {stats.map(({ id, label, percentage }) => (
                     <li className={css.item} key={id} >
@@ -19,16 +19,8 @@ export default function StatisticsSection({ stats }) {
     );
 };
 
-// export default function StatisticsSection({ title, children }) {
-//     return (
-//         <section className={css.titleSection}>
-//             <h2 className={css.title}>{title}</h2>
-//             {children}
-//         </section>
-//     )
-// }
-
 StatisticsSection.propTypes = {
+    title: PropTypes.string,
     stats: PropTypes.arrayOf(
         PropTypes.exact({
             id: PropTypes.string.isRequired,
@@ -37,3 +29,12 @@ StatisticsSection.propTypes = {
         }),
     ),
 };
+
+// export default function StatisticsSection({ title, children }) {
+//     return (
+//         <section className={css.titleSection}>
+//             <h2 className={css.title}>{title}</h2>
+//             {children}
+//         </section>
+//     )
+// }
