@@ -1,6 +1,6 @@
 import Profile from './profile/Profile'
 import users from './database/users.json'
-import Statistics from './statistics/Statistics'
+import StatisticsSection from './statisticsSection/StatisticsSection'
 import data from './database/data.json'
 
 
@@ -17,8 +17,8 @@ export const App = () => {
         likes={users.stats.likes}
       />
 
-      <Statistics title="Upload stats" stats={data} />
-      <Statistics stats={data} />
+      <StatisticsSection title="Upload stats" stats={data} />
+
 
     </div >
 
