@@ -1,10 +1,48 @@
 .profile {
-    margin-left: 20px;
-    font-style: normal;
-    font-size: 40px;
+    padding: 20px;
+}
+
+.description {
+    width: 450px;
+    height: auto;
+}
+
+.avatar {
+    display: block;
+    width: 200px;
 }
 
 .name {
-    font-size: 25px;
+    font-size: 45px;
     color: rgb(255, 0, 8);
+    font-weight: 600;
+}
+
+.tag {
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.location {
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.stats {
+    list-style: decimal;
+    font-size: 30px;
+}
+
+.label {
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.quontity {
+    font-size: 30px;
+    font-weight: 400;
+    color: chocolate;
 }

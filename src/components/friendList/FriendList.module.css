@@ -1,11 +1,10 @@
 .friendsSections {
     width: 1200px;
     margin-top: 20px;
+
 }
 
 .friendList {
-    background: silver;
-
     padding: 15px;
     list-style: none;
 }
@@ -40,4 +39,5 @@
     display: block;
     margin-right: 20px;
     margin-left: 20px;
+    width: 10%;
 }
