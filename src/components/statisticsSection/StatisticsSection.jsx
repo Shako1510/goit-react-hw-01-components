@@ -6,7 +6,8 @@ export default function StatisticsSection({ title, stats }) {
 
     return (
         < section className={css.sections}>
-            <h2 className={css.title}>{title}</h2>
+
+            {title && <h2 className={css.title}>{title}</h2>}
             <ul className={css.list}>
                 {stats.map(({ id, label, percentage }) => (
                     <li className={css.item} key={id} >
@@ -29,6 +30,12 @@ StatisticsSection.propTypes = {
         }),
     ),
 };
+
+// const GetRandomColor = function () {
+//     return '#' + (Math.random() * 0xffffff << 0).toString(16);
+// }
+
+
 
 // export default function StatisticsSection({ title, children }) {
 //     return (

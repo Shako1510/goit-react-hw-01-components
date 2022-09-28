@@ -8,16 +8,16 @@ export default function FriendList({ friends }) {
         < div className={css.friendsSections}>
 
             <ul className={css.friendList}>
-                {friends.map(({ avatar, name, isOnline, id }) => (
+                {friends.map(({ avatar, name, isOnline, id, }) => (
 
                     <li className={css.itemFriend} key={id} >
-                        <span className={css.statusOnline}>{isOnline}</span>
+                        {(isOnline ? <span className={css.statusOnline}>{isOnline}</span> : <span className={css.inline}></span>)}
                         <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
                         <p className={css.name}>{name}</p>
                     </li>))},
             </ul>
 
-        </ div>
+        </ div >
     );
 };
 

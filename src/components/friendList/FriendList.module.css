@@ -19,7 +19,6 @@
 }
 
 .statusOnline {
-
     width: 5%;
     height: 50px;
     margin: 0;
@@ -32,6 +31,22 @@
 
     float: left;
     background-color: green;
+
+}
+
+.inline {
+    width: 5%;
+    height: 50px;
+    margin: 0;
+    padding: 4px 6px;
+    font: 28px "Marker Felt", "Zapfino", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    float: left;
+    background-color: crimson;
 
 }
 
