@@ -1,12 +1,10 @@
 .statusOnline {
-    width: 5%;
-    height: 50px;
-    margin: 0;
+    width: 3%;
+    height: 40px;
+    margin-top: 0;
     padding: 4px 6px;
     font: 28px "Marker Felt", "Zapfino", cursive;
     display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 50%;
 
     float: left;
@@ -15,8 +13,8 @@
 }
 
 .inline {
-    width: 5%;
-    height: 50px;
+    width: 3%;
+    height: 40px;
     margin: 0;
     padding: 4px 6px;
     font: 28px "Marker Felt", "Zapfino", cursive;
@@ -32,6 +30,7 @@
 
 .itemFriend {
     display: flex;
+    align-items: center;
     padding: 16px 0 16px;
     font-weight: 500;
     color: #0e0d0d;
@@ -44,5 +43,5 @@
     display: block;
     margin-right: 20px;
     margin-left: 20px;
-    width: 10%;
+    width: 8%;
 }

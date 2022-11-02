@@ -1,5 +1,5 @@
 .sections {
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 24px;
     /* text-align: center; */
 
@@ -7,10 +7,11 @@
 }
 
 .title {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-size: 40px;
-    color: blue;
+    margin: 0;
+    padding: 8px;
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(25, 25, 25);
 }
 
 .list {
@@ -20,10 +21,6 @@
     list-style: none;
 }
 
-
-
-
-
 .item {
     display: flex;
     flex-direction: column;
@@ -31,8 +28,9 @@
     width: 110px;
     padding: 16px 0 16px;
     font-weight: 500;
-    color: #0e0d0d;
-    background-color: rgb(129, 151, 151);
+    color: chocolate;
+    ;
+    background-color: rgb(35, 34, 34);
     font-size: 30px;
     margin-right: 20px;
 

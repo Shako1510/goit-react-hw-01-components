@@ -1,10 +1,13 @@
 .friendsSections {
     width: 1200px;
     margin-top: 20px;
+    padding: 30px;
 
 }
 
 .friendList {
-    padding: 15px;
+    display: flex;
+    flex-direction: column;
     list-style: none;
+    padding: 0;
 }
