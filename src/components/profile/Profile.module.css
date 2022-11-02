@@ -1,5 +1,6 @@
 .profile {
     padding: 20px;
+    display: flex;
 }
 
 .description {
@@ -9,40 +10,56 @@
 
 .avatar {
     display: block;
-    width: 200px;
+    width: 170px;
 }
 
 .name {
     font-size: 45px;
-    color: rgb(255, 0, 8);
+    color: rgb(25, 25, 25);
     font-weight: 600;
+    margin: 0;
+    padding: 8px;
 }
 
 .tag {
     font-size: 35px;
-    font-weight: 500;
-    margin-left: 10px;
+    font-weight: 400;
+    color: rgb(25, 25, 25);
+    margin: 0;
+    padding: 8px;
 }
 
 .location {
     font-size: 35px;
-    font-weight: 500;
-    margin-left: 10px;
+    font-weight: 400;
+
+    margin: 0;
+    padding: 8px;
 }
 
 .stats {
-    list-style: decimal;
+    display: flex;
+    list-style: none;
     font-size: 30px;
+    padding: 8px;
+    margin-top: 188px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
 }
 
 .label {
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 500;
     margin-right: 30px;
+    text-align: center;
 }
 
 .quontity {
     font-size: 30px;
     font-weight: 400;
     color: chocolate;
+    text-align: center;
 }

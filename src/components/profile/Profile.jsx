@@ -17,15 +17,15 @@ export default function Profile({ avatar, username, tag, location, followers, vi
             </div>
 
             <ul className={css.stats}>
-                <li>
+                <li className={css.item}>
                     <span className={css.label}>Followers</span>
                     <span className={css.quontity}>{followers}</span>
                 </li>
-                <li>
+                <li className={css.item}>
                     <span className={css.label}>Views</span>
                     <span className={css.quontity}>{views}</span>
                 </li>
-                <li>
+                <li className={css.item}>
                     <span className={css.label}>Likes</span>
                     <span className={css.quontity}>{likes}</span>
                 </li>
